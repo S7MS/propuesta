@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>¿Te quieres casar conmigo?</title>
+  <meta name="theme-color" content="#ff7aa8" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="confetti" id="confetti"></div>
+
+  <div class="wrap">
+    <header>
+      <div class="chip" id="meta"></div>
+      <!-- Switch de música y botón de carta eliminados -->
+    </header>
+
+    <h1 id="titulo">Amorcito ¿Quieres pololear conmigo?</h1>
+
+    <section id="carta" class="seccion hidden" aria-hidden="true">
+      <h2 style="margin:0 0 8px 0">Una carta para ti</h2>
+      <p style="margin:0;line-height:1.6">
+        Desde el primer día supe que nuestra historia era distinta. Prometo cuidarte, reír,
+        apoyarnos en todo y construir un hogar lleno de paz. ¿Quieres ser mi compañera/o para siempre?
+      </p>
+    </section>
+
+    <section class="btns">
+      <button class="btn si" id="btnSi">¡SÍ!</button>
+      <button class="btn no" id="btnNo">no :(</button>
+    </section>
+
+    <section id="felicidades" class="seccion hidden" aria-live="polite" style="text-align:center">
+      <h3 style="margin:.2em 0;font-size:28px">¡Dijo que SÍ! 💍🎉</h3>
+      <p class="muted">Deja un mensajito y guarda este momento para siempre.</p>
+    </section>
+
+    <footer>
+      Para mi amorcito Juli💖.
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
